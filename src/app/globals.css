@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hov-bg-grey:hover {
+  background-color: grey;
+}
+
+.hov-text-white:hover {
+  color: white;
+}
+
+.boxshadow-parent-div {
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 0.5);
+}
+
+.boxshadow-child-div {
+  box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 0.3);
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+
+
+
+
+/* <div className="container mx-auto flex justify-between items-center p-4">
+<Link href={"/"}>
+  <div className="flex items-center cursor-pointer">
+    <img
+      src={"/images/logo.png"}
+      alt=""
+      className="w-10 h-10"
+    />
+    <Text
+      strong
+      color="link"
+      className="ml-2 text-blue-500 text-lg"
+    >
+      EDUHUNT
+    </Text>
+  </div>
+</Link>
+
+<Menu
+  theme="light"
+  mode="horizontal"
+  defaultSelectedKeys={[`${HighlightKey()}`]}
+  items={items}
+  className="flex-grow"
+/>
+
+<div className="flex items-center space-x-4">
+  <div className="relative">
+    <Badge dot>
+      <BellOutlined className="text-xl cursor-pointer" />
+    </Badge>
+  </div>
+  <Dropdown
+    overlay={
+      <Menu>
+        {authitems.map((item) => (
+          <Menu.Item key={item.key}>{item.label}</Menu.Item>
+        ))}
+      </Menu>
+    }
+    placement="bottomRight"
+    arrow
+  >
+    <div className="relative">
+      <Avatar
+        src={<img src={"/images/avatar.png"} alt="avatar" className="w-10 h-10" />}
+        size={"large"}
+      />
+    </div>
+  </Dropdown>
+
+</div>
+</div> */
